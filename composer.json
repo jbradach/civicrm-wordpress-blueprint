@@ -1,0 +1,67 @@
+{
+  "name": "jbradach/wordpress-civicrm",
+  "type": "project",
+  "license": "MIT",
+  "description": "CiviCRM + WordPress Blueprint",
+  "homepage": "https://progressivedata.io",
+  "authors": [
+    {
+      "name": "James Bradach",
+      "email": "jb@jamesbradach.com",
+      "homepage": "https://github.com/jbradach"
+    }
+  ],
+  "keywords": [
+    "bedrock", "roots", "wordpress", "civicrm", "composer", "wp"
+  ],
+  "support": {
+    "issues": "https://github.com/roots/bedrock/issues",
+    "forum": "https://discourse.roots.io/category/bedrock"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+           "name": "civicrm/civicrm",
+           "version": "4.7.6",
+           "type": "wordpress-plugin",
+           "dist": {
+               "type": "zip",
+               "url": "https://download.civicrm.org/civicrm-4.7.6-wordpress.zip"
+          }
+       }
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "composer/installers": "~1.0.12",
+    "vlucas/phpdotenv": "^2.0.1",
+    "johnpbloch/wordpress": "4.4.2",
+    "oscarotero/env": "^1.0",
+    "roots/wp-password-bcrypt": "1.0.0",
+    "civicrm/civicrm": "^4.7"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^2.5.1"
+  },
+  "extra": {
+    "installer-paths": {
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "web/wp"
+  },
+  "scripts": {
+    "test": [
+      "vendor/bin/phpcs --ignore=web/wp/,vendor/ -n -s ."
+    ]
+  }
+}

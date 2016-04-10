@@ -5,7 +5,7 @@ namespace Roots\Sage\Wrapper;
 /**
  * Theme wrapper
  *
- * @link https://roots.io/sage/docs/theme-wrapper/
+ * @link https://roots.io/blueprint/docs/theme-wrapper/
  * @link http://scribu.net/wordpress/theme-wrappers.html
  */
 
@@ -41,7 +41,7 @@ class SageWrapping {
   }
 
   public function __toString() {
-    $this->templates = apply_filters('sage/wrap_' . $this->slug, $this->templates);
+    $this->templates = apply_filters('blueprint/wrap_' . $this->slug, $this->templates);
     return locate_template($this->templates);
   }
 

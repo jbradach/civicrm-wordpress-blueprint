@@ -1,9 +1,9 @@
 {
-  "name": "roots/sage",
+  "name": "roots/blueprint",
   "type": "wordpress-theme",
   "license": "MIT",
   "description": "The best WordPress starter theme with a modern front-end development workflow. Based on HTML5 Boilerplate, gulp, Bower, and Bootstrap.",
-  "homepage": "https://roots.io/sage/",
+  "homepage": "https://roots.io/blueprint/",
   "authors": [
     {
       "name": "Ben Word",
@@ -20,7 +20,7 @@
     "wordpress"
   ],
   "support": {
-    "issues": "https://github.com/roots/sage/issues",
+    "issues": "https://github.com/roots/blueprint/issues",
     "forum": "https://discourse.roots.io/"
   },
   "require": {

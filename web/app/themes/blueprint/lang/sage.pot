@@ -81,12 +81,12 @@ msgid "Sage Starter Theme"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "https://roots.io/sage/"
+msgid "https://roots.io/blueprint/"
 msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Sage is a WordPress starter theme. <a href=\"https://github.com/roots/sage"
+"Sage is a WordPress starter theme. <a href=\"https://github.com/roots/blueprint"
 "\">Contribute on GitHub</a>"
 msgstr ""
 

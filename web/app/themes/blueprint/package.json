@@ -1,15 +1,15 @@
 {
-  "name": "sage",
+  "name": "blueprint",
   "version": "8.4.2",
   "author": "Ben Word <ben@benword.com>",
-  "homepage": "https://roots.io/sage/",
+  "homepage": "https://roots.io/blueprint/",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/roots/sage.git"
+    "url": "git://github.com/roots/blueprint.git"
   },
   "bugs": {
-    "url": "https://github.com/roots/sage/issues"
+    "url": "https://github.com/roots/blueprint/issues"
   },
   "licenses": [
     {

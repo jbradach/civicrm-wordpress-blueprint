@@ -1,12 +1,12 @@
-# [Sage](https://roots.io/sage/)
-[![Build Status](https://travis-ci.org/roots/sage.svg)](https://travis-ci.org/roots/sage)
-[![devDependency Status](https://david-dm.org/roots/sage/dev-status.svg)](https://david-dm.org/roots/sage#info=devDependencies)
+# [Sage](https://roots.io/blueprint/)
+[![Build Status](https://travis-ci.org/roots/blueprint.svg)](https://travis-ci.org/roots/blueprint)
+[![devDependency Status](https://david-dm.org/roots/blueprint/dev-status.svg)](https://david-dm.org/roots/blueprint#info=devDependencies)
 
 Sage is a WordPress starter theme based on HTML5 Boilerplate, gulp, Bower, and Bootstrap Sass, that will help you make better themes.
 
-* Source: [https://github.com/roots/sage](https://github.com/roots/sage)
-* Homepage: [https://roots.io/sage/](https://roots.io/sage/)
-* Documentation: [https://roots.io/sage/docs/](https://roots.io/sage/docs/)
+* Source: [https://github.com/roots/blueprint](https://github.com/roots/blueprint)
+* Homepage: [https://roots.io/blueprint/](https://roots.io/blueprint/)
+* Documentation: [https://roots.io/blueprint/docs/](https://roots.io/blueprint/docs/)
 * Twitter: [@rootswp](https://twitter.com/rootswp)
 * Newsletter: [Subscribe](http://roots.io/subscribe/)
 * Forum: [https://discourse.roots.io/](https://discourse.roots.io/)
@@ -29,10 +29,10 @@ For more installation notes, refer to the [Install gulp and Bower](#install-gulp
 * [Bower](http://bower.io/) for front-end package management
 * [asset-builder](https://github.com/austinpray/asset-builder) for the JSON file based asset pipeline
 * [Bootstrap](http://getbootstrap.com/)
-* [Theme wrapper](https://roots.io/sage/docs/theme-wrapper/)
+* [Theme wrapper](https://roots.io/blueprint/docs/theme-wrapper/)
 * ARIA roles and microformats
 * Posts use the [hNews](http://microformats.org/wiki/hnews) microformat
-* [Multilingual ready](https://roots.io/wpml/) and over 30 available [community translations](https://github.com/roots/sage-translations)
+* [Multilingual ready](https://roots.io/wpml/) and over 30 available [community translations](https://github.com/roots/blueprint-translations)
 
 Install the [Soil](https://github.com/roots/soil) plugin to enable additional features:
 
@@ -56,7 +56,7 @@ If you're already [using Composer to manage WordPress](https://roots.io/using-co
 The example below assumes you're using Bedrock. If you're not, simply change the target path accordingly.
 
 ```sh
-composer create-project roots/sage web/app/themes/your-theme-name-here
+composer create-project roots/blueprint web/app/themes/your-theme-name-here
 ```
 
 Then activate the theme via [wp-cli](http://wp-cli.org/commands/theme/activate/).
@@ -67,7 +67,7 @@ wp theme activate your-theme-name-here
 
 ### via WordPress Admin Panel
 
-1. [Download the latest release](https://github.com/roots/sage/releases/latest) of Sage.
+1. [Download the latest release](https://github.com/roots/blueprint/releases/latest) of Sage.
 2. In your WordPress admin panel, navigate to Appearance->Themes
 3. Click Add New
 4. Click Upload Theme
@@ -122,7 +122,7 @@ If your local development URL looks like `http://localhost:8888/project-name/` y
 
 ## Documentation
 
-Sage documentation is available at [https://roots.io/sage/docs/](https://roots.io/sage/docs/).
+Sage documentation is available at [https://roots.io/blueprint/docs/](https://roots.io/blueprint/docs/).
 
 ## Contributing
 

@@ -95,6 +95,7 @@ function display_sidebar() {
  * Theme assets
  */
 function assets() {
+  wp_enqueue_style('roboto/material', '//fonts.googleapis.com/css?family=Material+Icons|Roboto:400,500,300,700', false, null);
   wp_enqueue_style('blueprint/css', Assets\asset_path('styles/main.css'), false, null);
 
   if (is_single() && comments_open() && get_option('thread_comments')) {

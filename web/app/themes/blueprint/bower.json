@@ -1,15 +1,27 @@
 {
   "name": "blueprint",
-  "homepage": "https://roots.io/blueprint/",
+  "homepage": "https://github.com/jbradach",
   "authors": [
-    "Ben Word <ben@benword.com>"
+    "James Bradach <jb@progressivedata.io>"
   ],
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "bootstrap-sass": "3.3.6"
+    "bootstrap-sass": "3.3.6",
+    "bootstrap-material-design": "^0.5.9"
   },
   "overrides": {
+    "bootstrap-material-design": {
+      "main": [
+        "./sass/bootstrap-material-design.scss",
+        "./dist/js/material.js",
+        "./sass/ripples.scss",
+        "./dist/js/ripples.js"
+      ],
+      "dependencies": {
+        "bootstrap-sass": "3.3.6"
+      }
+    },
     "bootstrap-sass": {
       "main": [
         "./assets/stylesheets/_bootstrap.scss",
@@ -24,12 +36,7 @@
         "./assets/javascripts/bootstrap/popover.js",
         "./assets/javascripts/bootstrap/scrollspy.js",
         "./assets/javascripts/bootstrap/tab.js",
-        "./assets/javascripts/bootstrap/affix.js",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.eot",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.svg",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.ttf",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.woff",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.woff2"
+        "./assets/javascripts/bootstrap/affix.js"
       ]
     }
   }

@@ -1,9 +1,55 @@
-// Glyphicons font path
-$icon-font-path:        "../fonts/";
+@import '../../bower_components/bootstrap-material-design/sass/_colors';
 
 // Grid settings
 $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
 
 // Colors
-$brand-primary:         #27ae60;
+$brand-primary: #691A99;
+$brand-warning:         #D84315;
+
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+// $gray-base:              #000
+// $gray-darker:            lighten($gray-base, 13.5%) // #222
+// $gray-dark:              lighten($gray-base, 20%)   // #333
+// $gray:                   lighten($gray-base, 33.5%) // #555
+// $gray-light:             lighten($gray-base, 46.7%) // #777
+// $gray-lighter:           lighten($gray-base, 93.5%) // #eee
+
+
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+// $gray-base:              #000
+// $gray-darker:            lighten($gray-base, 13.5%) // #222
+// $gray-dark:              lighten($gray-base, 20%)   // #333
+// $gray:                   lighten($gray-base, 33.5%) // #555
+// $gray-light:             lighten($gray-base, 46.7%) // #777
+// $gray-lighter:           lighten($gray-base, 93.5%) // #eee
+
+// $brand-primary: $green-800;
+// $brand-primary:         darken(#428bca, 6.5%) // #337ab7
+// $brand-success:         #5cb85c
+// $brand-info:            #5bc0de
+// $brand-warning:         #f0ad4e
+// $brand-danger:          #d9534f
+
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+//** Background color for `<body>`.
+$body-bg:               #F5F5F5;
+//** Global text color on `<body>`.
+// $text-color:            $gray-dark
+
+$link-color:            $brand-primary;
+//** Link hover color set via `darken()` function.
+$link-hover-color:      darken($link-color, 15%);
+//** Link hover decoration.
+$link-hover-decoration: underline;

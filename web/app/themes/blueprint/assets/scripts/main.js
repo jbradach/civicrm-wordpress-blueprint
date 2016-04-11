@@ -68,6 +68,7 @@
 
       // Fire common finalize JS
       UTIL.fire('common', 'finalize');
+      $.material.init();
     }
   };
 

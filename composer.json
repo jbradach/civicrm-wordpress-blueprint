@@ -30,23 +30,23 @@
       "type": "package",
       "package": {
            "name": "civicrm/civicrm",
-           "version": "4.7.6",
+           "version": "4.7.18",
            "type": "wordpress-plugin",
            "dist": {
                "type": "zip",
-               "url": "https://download.civicrm.org/civicrm-4.7.6-wordpress.zip"
+               "url": "https://download.civicrm.org/civicrm-4.7.18-wordpress.zip"
           }
        }
     }
   ],
   "require": {
     "php": ">=5.5",
-    "composer/installers": "~1.0.12",
+    "composer/installers": "~1.2.0",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.4.2",
+    "johnpbloch/wordpress": "4.7.4",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "civicrm/civicrm": "^4.7",
+    "civicrm/civicrm": "4.7.18",
     "roots/soil": "3.7.0"
   },
   "require-dev": {
